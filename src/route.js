@@ -1,6 +1,7 @@
 
-var abc =require('./abc/abc');
+var modules =require('./module/index');
+
 module.exports = function(app){
 
-	app.use('/about', abc);
+	app.use('/api/v1/', modules);
 }
