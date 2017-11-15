@@ -5,7 +5,7 @@ var app = express();
 
 
 
-appRoutes(app);
+appRoutes(app); 
 
 app.listen(3000, function(){
 	console.log("Running");
